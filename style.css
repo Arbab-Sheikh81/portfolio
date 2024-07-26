@@ -2,9 +2,9 @@ body{
    background: rgba(0, 0, 34, 0.877); 
    color: white;
 }
-img{
-    border-radius: 50%;
-    height: 300px;
+.my_img{
+    
+    height: 400px;
     width: 300px;
 }
 button{
@@ -14,4 +14,12 @@ button{
     color: white;
     padding: 0.5rem;
 
+}
+.skills img{
+    width: 100px;
+}
+.skills{
+    display: flex;
+gap: 2rem;
+    flex-wrap: wrap;
 }
